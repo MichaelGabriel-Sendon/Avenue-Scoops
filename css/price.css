@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../images/background-image.jpg');
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    border-bottom: 1.5px solid #31c050;
+}
+
+.container{
+	background-color: #FFDDDF;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.navbar img {
+    width: 9%;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.active {
+    color: #e05151;
+    font-size: 23px;
+}
+
+.inactive {
+    color: #51b7e0;
+    font-size: 17px;
+}
+
+.container .navbar ul li {
+    padding: 15px;
+}
+
+#home {
+    background-image: url('images/summer-sale.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#table{
+    background-color: white;
+    margin-top: -20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.table h1{
+    color: #808080;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+
+    table{
+    margin: auto;
+    max-width: 800px;
+    border-collapse: collapse;
+    }
+
+    th, td{
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    }
+
+    th {
+    background-color: #aec6cf;
+    }
+
+    tr:nth-child(odd){
+    background-color: #8fd6f0;
+    }
+
+    tr:hover {
+    background-color: #bddce6;
+    }
+
+    .product-table img{
+    width: 30%;
+    display: block;
+    margin: auto;
+    }
+
+
+main{
+    padding: 20px;
+}
+
+footer{
+    background-image: linear-gradient(90deg, #ffdddf 0%, #ff91a4 90%);;
+    padding-top: 15px;
+    margin-top: 5px;
+    text-align: center;
+    border-top: 1.5px solid #31c050;
+}
+
+footer li{
+    list-style: none;
+    width: 35px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.social-icon{
+    display: inline-block;
+    width: 100px;
+}
+
+.social-icon img{
+    width: 30%;
+}

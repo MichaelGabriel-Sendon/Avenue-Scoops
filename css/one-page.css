@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('../assets/background-image.jpg');
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{
+    border-bottom: 1.5px solid #31c050;
+}
+
+.container{
+	background-color: #FFDDDF;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.navbar ul{
+	display: flex;
+	align-items: center;
+}
+
+.navbar a{
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 10px;
+}
+
+.navbar img{
+	width: 9%;
+}
+
+.navbar ul li{
+	list-style-type: none;
+}
+
+.active{
+	color: #e05151;
+	font-size: 23px;
+}
+
+.inactive{
+	color: #51b7e0;
+	font-size: 17px;
+}
+
+.container .navbar ul li{
+	padding: 15px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 20px;
+    margin-bottom: 60px;
+}
+
+aside{
+    max-width: 18%;
+    max-height: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px gainsboro;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.left-aside{
+    transform: translateY(70%);
+}
+
+.aside-title{
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.profile-picture{
+    padding-top: 15px;
+    width: 150px;
+    height: auto;
+}
+
+#home{
+    background-image: url('assets/summer-sale.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero{
+    background-color: #62616180;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.shop-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e05151;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.shop-button:hover{
+    background-color: #c04444;
+}
+
+.scroller{
+    background-color: white;
+}
+
+#reviews{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#flavour{
+    background-color: white;
+}
+
+.review-container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.review-container h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.review{
+    background-color: #ffdddf;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #0000001a;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+    background-color: white;
+}
+
+.product-grid li{
+    list-style: none;
+    flex: 1 1 200px;
+    max-width: 200px;
+}
+
+.card-wrapper{
+    background-color: #ffdddf;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+
+.product-image{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.product-info{
+    text-align: center;
+}
+
+.product-title{
+    font-size: 19.2px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.product-name{
+    text-decoration: none;
+    color: #ff69b4;
+}
+
+.product-description{
+    font-size: 14.4px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.price{
+    font-size: 17.6px;
+    color: #87ceeb;
+}
+
+#table{
+    background-color: white;
+    margin-top: -20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.table h1{
+    color: #808080;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+
+    table{
+    margin: auto;
+    max-width: 800px;
+    border-collapse: collapse;
+    }
+
+    th, td{
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    }
+
+    th {
+    background-color: #aec6cf;
+    }
+
+    tr:nth-child(odd){
+    background-color: #8fd6f0;
+    }
+
+    tr:hover {
+    background-color: #bddce6;
+    }
+
+    .product-table img{
+    width: 30%;
+    display: block;
+    margin: auto;
+    }
+
+
+main{
+    padding: 20px;
+}
+
+.dropdown-section {
+    margin: 20px 0;
+    text-align: center;
+    background-color: #ff91a4;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 5% 5%;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+a.dropdown{
+    color: white;
+}
+
+.dropdown-link {
+    padding: 10px 20px;
+    background-color: #fd4aa4;
+    color: white;
+    border-radius: 3px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fd4aa4;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: left;
+    width: 150px;
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.dropdown-content li {
+    margin-bottom: 5px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 5px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.about{
+    background-color: #fff;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #0000001a;
+}
+
+.about .content h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about .content p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.hero h1{
+	font-family: "Poetsen One", sans-serif, !important;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+footer{
+    background-image: linear-gradient(90deg, #ffdddf 0%, #ff91a4 90%);;
+    padding-top: 15px;
+    margin-top: 5px;
+    text-align: center;
+    border-top: 1.5px solid #31c050;
+}
+
+footer li{
+    list-style: none;
+    width: 35px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.social-icon{
+    display: inline-block;
+    width: 100px;
+}
+
+.social-icon img{
+    width: 30%;
+}
